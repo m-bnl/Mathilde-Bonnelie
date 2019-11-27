@@ -1,0 +1,162 @@
+/* Colors & fonts */
+
+img {
+	width:132px;
+	height:132px;
+	}
+
+
+body {
+	font-weight :lighter;
+	line-height: 1.5;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	}
+
+
+p {
+	font-family: 'Baskervville', serif;
+	font-weight: lighter;
+	color: rgb(80, 80, 80);
+	}
+
+
+h1 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: -webkit-xxx-large;
+	line-height: 0
+	}
+
+h2 {
+	font-family: 'Questrial', sans-serif;
+	color: #E89418;
+	text-align: center;
+	font-weight: bold;
+	}
+
+h3 {
+	font-family: 'Questrial', sans-serif;
+	color: #A4DBF8;
+	text-align: center;
+	font-weight: bold;
+	}
+
+a {
+	color: #E89418;
+	font-weight: bold;
+	}
+
+a:hover {
+	color: #A4DBF8;
+	}
+
+
+/* Custom designs with ID*/
+
+#moi {
+	width: 210px;
+	height: 210px;
+	border-radius: 50%
+	}
+
+#background {
+	background: white;
+	}
+
+#div1 {
+	background-image: url(images/sky-1441936_1920.jpg);
+	background-attachment: fixed;
+	padding: 5px;
+	margin: 15px;
+	box-shadow: 0px 0px Opx rgba(0, 0, 0, 0.2);
+	}
+
+#list-font {
+	font-family: 'Questrial', sans-serif;
+	color: rgb(30, 30, 30);
+	}	
+
+#logosize {
+	font-size: 25px
+	}	
+
+#font-size {
+	font-size: 20px;
+	font-weight: lighter;
+	}	
+
+#vid-parent { 
+	overflow: hidden; 
+	background: none;
+	padding: none;
+	box-shadow: none;	
+	}
+
+/* Custom designs with class*/
+
+.list-inline {
+	list-style: none;
+	padding: 5px;
+	margin-top: center;
+	text-align: center;
+	}
+
+.list-inline li {
+	display: inline;
+	padding: 5px;
+	margin: 15px
+	}
+
+.container {
+	position: relative;
+	color: white;
+	}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 80px;
+	}
+
+.div-style {
+	background: white;
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	}
+
+.video-size {
+	height:400px;
+	width:800px;
+	}
+
+/* Responsive Design*/
+
+@media(max-width: 1090px) {
+	.video-size {
+		width: 500px;
+		height: 250px;
+		}
+	}
+
+@media(max-width: 760px) {
+	.container {
+		width: 600px
+		}
+	}
+
+@media(max-width: 720px) {
+	.video-size {
+		width: 250px;
+		height: 125px;
+		}
+	}
+
+	.main-container {
+	width: 70%;
+	margin: 0 auto;
+	}
