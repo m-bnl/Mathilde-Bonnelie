@@ -134,6 +134,11 @@ a:hover {
 	width:800px;
 	}
 
+.main-container {
+	width: 70%;
+	margin: 0 auto;
+	}
+
 /* Responsive Design*/
 
 @media(max-width: 1090px) {
@@ -156,7 +161,4 @@ a:hover {
 		}
 	}
 
-	.main-container {
-	width: 70%;
-	margin: 0 auto;
-	}
+	
